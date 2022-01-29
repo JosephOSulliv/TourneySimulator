@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { TourneyHome } from './Home/TourneyHome';
-import './index.css';
+import './index.scss';
 
 ReactDOM.render(
   <TourneyHome/>,
