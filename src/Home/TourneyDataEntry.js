@@ -2,8 +2,9 @@ import React, {useState} from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 export const TourneyDataEntry = ({}) => {
+    
     return(
-        <form className='tourney-entry-form'>
+        <form className='tourney-entry-form' action={''}>
             <label for={'Bracket Title'}>Bracket Name: </label>
             <input type={"text"} id={"name"} name={"name"}></input>
             <br/>
@@ -14,7 +15,7 @@ export const TourneyDataEntry = ({}) => {
         </form>
     );
 }
-function CreateTourney() {
+function ConfirmTourneyCreationStart() {
     return (
         <div className={'bracket'}>
 
